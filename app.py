@@ -28,5 +28,6 @@ while True:
         novoStatus = input()
         database.status_update(idStatus, novoStatus)
 
+
     if opcao == "5":
         break
