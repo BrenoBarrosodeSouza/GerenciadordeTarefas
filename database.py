@@ -10,6 +10,7 @@ def showAll():
  for item in items:
  	print(item)
 
+
  conn.commit()
  conn.close()
 
